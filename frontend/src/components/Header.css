@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.post-btn {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  border-radius: 4px;
+}

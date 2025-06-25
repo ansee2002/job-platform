@@ -1,0 +1,26 @@
+.post-job {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.post-job form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-job input,
+.post-job select,
+.post-job textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.post-job button {
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

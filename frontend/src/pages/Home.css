@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero select {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.job-listings {
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+}
